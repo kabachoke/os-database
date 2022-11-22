@@ -3,13 +3,17 @@ A simple pyqt6 realization of a simple operation system database.
 
 ## Setting up 
 ### Cloning repository
-`git clone https://github.com/kabachoke/os-database`
-`cd os-database
+```
+git clone https://github.com/kabachoke/os-database
+cd os-database
+```
 ### Setting up virtual environment
-`python -m venv venv`
-`venv\scripts\activate`
-`python.exe -m pip install --upgrade pip`
-`pip install -r requirements.txt`
+```
+python -m venv venv
+venv\scripts\activate
+python.exe -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 ### Run
 `python main.py`
 ## Converting form.ui to py
@@ -17,4 +21,4 @@ A simple pyqt6 realization of a simple operation system database.
 ## Updating requirements.txt
 `pip freeze > requirements.txt`
 ## Sample
-![Sample](https://github.com/kabachoke/os-database/img/sample.png)
+![Sample](https://github.com/kabachoke/os-database/blob/main/img/sample.png)
